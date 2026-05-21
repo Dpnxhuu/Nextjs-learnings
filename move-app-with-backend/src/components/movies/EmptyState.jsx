@@ -1,5 +1,9 @@
 "use client"
+import { useRouter } from 'next/navigation'
 export default function EmptyState() {
+
+  const router = useRouter();
+
   return (
     <div className="flex flex-col max-w-md mx-auto rounded-2xl border border-dashed border-zinc-700/80 bg-zinc-900/30 px-8 py-16">
       <div className="mb-4 mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-zinc-800">

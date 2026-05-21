@@ -19,7 +19,7 @@ export default function MovieCard({ movie }) {
           <p className="mt-1 text-sm text-zinc-500">{movie.year}</p>
         </div>
         <Link
-          href={`/movie/${movie.id}`}
+          href={`/details/${movie.id}`}
           className="mt-auto block w-full rounded-lg border border-zinc-700 bg-zinc-800/80 py-2.5 text-center text-sm font-medium text-zinc-200 transition hover:border-violet-500/50 hover:bg-violet-600/20 hover:text-violet-200"
         >
           View Details
