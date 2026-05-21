@@ -12,7 +12,7 @@ My personal repository for documenting daily Next.js learning — notes, experim
 ## Tech Stack
 
 - Next.js
-- React
+- React 19
 - Tailwind CSS
 - JavaScript
 
